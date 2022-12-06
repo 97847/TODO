@@ -1,0 +1,21 @@
+const mongoose=require('mongoose');
+
+const TodoScheme=new mongoose.Schema({
+    id:{
+        type:Number,
+        required:true,
+        trim:true,
+    },
+    description:{
+        type:String,
+        required:true,
+        trim:true,
+    },
+    status:{
+        type:String,
+        required:true,
+        trim:true,
+    }
+});
+const TodoModel=mongoose.model('conn',TodoScheme);
+module.exports=TodoModel;
