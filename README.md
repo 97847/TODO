@@ -2,7 +2,7 @@
 This is the project is about to add todo api using express and node js
 I created a request POST,GET,DELETE,PATCH using postman
 I add todo activites through postman which is  stored in my mongodb campus database
-the foolowing request i made:
+the following request i made:
 ****get all todo actvites
 ****post/add todo activites
 **** get single todo activites through id
